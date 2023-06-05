@@ -37,7 +37,6 @@
     "walletconnect"
   ],
   "dependencies": {
-    "@cardano-foundation/cardano-connect-with-wallet": "0.1.45",
     "@walletconnect/universal-provider": "^2.7.0",
     "@web3modal/standalone": "2.3.7",
     "bs58": "5.0.0",

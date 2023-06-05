@@ -8,10 +8,9 @@
 /* eslint-disable no-useless-return */
 /* eslint-disable curly */
 /* eslint-disable no-useless-catch */
-import {
-  Observable,
-  WalletNotCip30CompatibleError
-} from '@cardano-foundation/cardano-connect-with-wallet';
+import { Observable } from '../types/observable';
+import { WalletNotCip30CompatibleError } from '../types/walletCIP30error';
+
 import { setAddress } from '../store';
 import type {
   CardanoInjectedNamespaceApi,
